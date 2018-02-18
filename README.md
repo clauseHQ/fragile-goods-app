@@ -52,7 +52,12 @@ Then switch to the `Connections` tab.
  
 5. Paste in your execution URL from Clause Hub into the `Execution URL` field in the demo app.
 
+6. Click the `Start` button in the app to begin the timer.
 
+> Note that your device must have an accelerometer for this demo to pick up readings. Why not try this from your mobile phone?
+> 
+> If you don't have an accelerometer you can vary the delivery price by stopping the timer before / after it reaches 0 seconds. Late deliveries also impose a penalty.
 
+7. You can reset the timer by clicking reset.
 
 &copy; Copyright 2018, Clause Inc.
