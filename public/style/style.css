@@ -1,0 +1,67 @@
+body {
+	background-color:#525d75 !important;
+	color:#ffffff !important;
+	font-family: 'ProximaNova-Light';
+	font-size:18px;
+}
+
+div#content {
+	padding:20px;
+}
+
+div#content a {
+	margin-bottom:10px;
+}
+
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+button {
+	padding: 10px;
+	font-size:18px;
+	font-variant: small-caps;
+	color:oldlace;
+}
+
+button.primary {
+	background-color:#009688ff
+}
+
+button.secondary {
+	background-color: #0096886f;
+}
+
+button.tertiary {
+	background-color: #9fc5e8ff;
+}
+
+span.unit {
+	font-size: 18px;
+	color:#ffffff;
+}
+
+span.value {
+	font-size: 32px;
+	color:#ffffff;
+}
+
+.light {
+    font-weight: 300 !important;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
