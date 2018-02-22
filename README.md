@@ -64,4 +64,4 @@ Then switch to the `Connections` tab.
 
 7. You can reset the timer by clicking reset.
 
-&copy; Copyright 2018, Clause Inc.
+&copy; Copyright 2018, Clause Inc. 
