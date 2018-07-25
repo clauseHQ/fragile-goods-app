@@ -70,7 +70,7 @@ function sendEvent(callback){
     url: $('#executionUrl').val(),
     data: tempBody
   }).then(function(data){
-    payOut = data.amount;
+    payOut = (data.amount.doubleValue)? data.amount.doubleValue: data.amount;
     updatePage();
     if(callback){ callback(payOut); }
   });
