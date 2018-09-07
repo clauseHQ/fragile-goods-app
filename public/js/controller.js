@@ -68,6 +68,9 @@ function sendEvent(callback){
   $.ajax({
     type: 'POST',
     url: $('#executionUrl').val(),
+    headers: {
+      'Authorization': 'Bearer ' + $('#token').val()
+    },
     data: tempBody
   }).then(function(data){
     payOut = (data.amount.doubleValue)? data.amount.doubleValue: data.amount;
