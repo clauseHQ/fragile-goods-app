@@ -72,7 +72,7 @@ function sendEvent(callback){
       'Authorization': 'Bearer ' + $('#token').val(),
       'Content-Type': 'application/json'
     },
-    data: tempBody
+    data: JSON.stringify(tempBody)
   }).then(function(data){
     payOut = (data.amount.doubleValue)? data.amount.doubleValue: data.amount;
     updatePage();
