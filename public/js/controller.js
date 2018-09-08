@@ -69,7 +69,8 @@ function sendEvent(callback){
     type: 'POST',
     url: $('#executionUrl').val(),
     headers: {
-      'Authorization': 'Bearer ' + $('#token').val()
+      'Authorization': 'Bearer ' + $('#token').val(),
+      'Content-Type': 'application/json'
     },
     data: tempBody
   }).then(function(data){
