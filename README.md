@@ -50,11 +50,11 @@ In the template libary choose the following template.
 
 Click `Create Contract`.
 
-Then switch to the `Connections` tab.
+When you are in the contract editor, select the Fragile Goods clause in the right pane.
 
 ![](docs/execution-url.png)
  
-5. Paste in your execution URL from Clause Hub into the `Execution URL` field in the demo app.
+5. Scroll to the triggers section of the clause to see the execution URL. Paste in your execution URL from Clause Hub into the `Execution URL` field in the demo app.
 
 6. Click the `Start` button in the app to begin the timer.
 
