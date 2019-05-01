@@ -36,7 +36,7 @@ You should see the following output.
 mattmbp:fragile-goods-app matt$ npm start
 
 > fragile-goods-app@0.0.1 start /Users/matt/dev/clauseHQ/fragile-goods-app
-> node app.js
+> node index.js
 
 App running at http://localhost:3000
 
