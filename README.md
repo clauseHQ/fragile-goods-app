@@ -6,6 +6,8 @@ A demo client application that invokes a smart clause hosted on [Clause Hub](htt
 
 A hosted version of this app is available at [https://clause-fragile-goods-app.netlify.com](https://clause-fragile-goods-app.netlify.com)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/80b00baf-b088-4efe-9637-4df6554c8b81/deploy-status)](https://app.netlify.com/sites/clause-fragile-goods-app/deploys)
+
 ## Running this demo on your machine
 
 1. Download this repository.
