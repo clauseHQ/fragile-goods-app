@@ -1,0 +1,8 @@
+{
+    "name": "Clause Fragile Goods Demo",
+    "description": "A barebones jQuery and Express 4 app that triggers a Smart Clause.",
+    "repository": "https://github.com/clauseHQ/fragile-goods-app",
+    "logo": "https://cdn.rawgit.com/clauseHQ/fragile-goods-app/blob/master/public/logo.png",
+    "keywords": ["node", "express", "jquery", "clause"],
+    "image": "heroku/nodejs"
+  }
