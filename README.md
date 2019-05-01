@@ -64,4 +64,4 @@ When you are in the contract editor, select the Fragile Goods clause in the righ
 
 7. You can reset the timer by clicking reset.
 
-&copy; Copyright 2018, Clause Inc. 
+&copy; Copyright 2019, Clause Inc. 

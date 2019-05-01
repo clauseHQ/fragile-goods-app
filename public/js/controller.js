@@ -67,10 +67,11 @@ function sendEvent(callback){
   let tempBody = body;
   $.ajax({
     type: 'POST',
-    url: $('#executionUrl').val(),
+    url: '/trigger',
     headers: {
       'Authorization': 'Bearer ' + $('#token').val(),
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'X-Clause-TriggerUrl' : $('#executionUrl').val()
     },
     data: JSON.stringify(tempBody)
   }).then(function(data){

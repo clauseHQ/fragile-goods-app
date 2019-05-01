@@ -1,6 +1,6 @@
 {
   "name": "fragile-goods-app",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A demo app that invokes a smart clause hosted on clause.io",
   "main": "app.js",
   "author": "clause.io",
@@ -9,10 +9,10 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "4.13.x"
+    "express": "^4.16.4"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,6 @@
     "url": "https://github.com/clauseHQ/fragile-goods-app/issues"
   },
   "devDependencies": {
-    "eslint": "^4.18.0"
+    "eslint": "^5.16.0"
   }
 }
