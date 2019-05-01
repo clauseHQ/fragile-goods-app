@@ -4,6 +4,7 @@
 const request = require('request');
 const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 // parse request body to JSON
 app.use(express.json());
@@ -43,4 +44,4 @@ app.post('/trigger', async function (req, res, next) {
 });
 
 // start server on the specified port and binding host
-app.listen(3000, () => console.log('App running at http://localhost:3000'));
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
