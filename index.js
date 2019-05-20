@@ -28,19 +28,24 @@ app.post('/trigger', async function (req, res, next) {
     json: req.body
   };
 
-  request.post(
-    triggerUrl,
-    config,
-    function (error, response, body) {
-      if (!error && response.statusCode === 200) {
-        console.log(`Response: ${JSON.stringify(body, null, 2)}`);
-        res.send(body);
+  try {
+    request.post(
+      triggerUrl,
+      config,
+      function (error, response, body) {
+        if (!error && response.statusCode === 200) {
+          console.log(`Response: ${JSON.stringify(body, null, 2)}`);
+          res.send(body);
+        }
+        else {
+          next(error);
+        }
       }
-      else {
-        next(error);
-      }
-    }
-  );
+    );
+  }
+  catch(err) {
+    next(err);
+  }
 });
 
 // start server on the specified port and binding host
