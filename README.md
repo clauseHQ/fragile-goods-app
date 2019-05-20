@@ -36,11 +36,11 @@ mattmbp:fragile-goods-app matt$ npm start
 > fragile-goods-app@0.0.1 start /Users/matt/dev/clauseHQ/fragile-goods-app
 > node index.js
 
-App running at http://localhost:3000
+App running at http://localhost:5000
 
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. Open [http://localhost:5000](http://localhost:5000) in your browser.
 
 5. Create an instance of the Fragile Goods clause in your Clause Hub account.
 
