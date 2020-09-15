@@ -44,7 +44,7 @@ App running at http://localhost:5000
 
 5. Create an instance of the Fragile Goods clause in your Clause Hub account.
 
-In the template libary choose the following template.
+In the template library choose the following template.
 
 <img src="docs/fragile-goods-template.png" width="350">
 
